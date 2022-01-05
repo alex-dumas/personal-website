@@ -49,6 +49,10 @@ feature_row4:
     btn_class: "btn--success"
 ---
 
+<style>
+.page__hero--overlay { background-attachment: fixed; }
+</style>
+
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
